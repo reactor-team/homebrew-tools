@@ -12,12 +12,12 @@ class ReactorCli < Formula
 
   on_macos do
     on_arm do
-      url "https://reactor-releases.s3.amazonaws.com/reactor-cli/20260428-2/reactor-cli_20260428-2_darwin-arm64.tar.gz"
-      sha256 "34af6c199ad5ab7030f0338df026447ad1598dc0f958da2ed291fdfd02ec0534"
+      url "https://releases.reactor.inc/reactor-cli/20260428-2/reactor-cli_20260428-2_darwin-arm64.tar.gz"
+      sha256 "6fe6d8d33062246d058659d21174e93e639b4e8c11fd2f885cf8c5aabad5d76c"
     end
     on_intel do
-      url "https://reactor-releases.s3.amazonaws.com/reactor-cli/20260428-2/reactor-cli_20260428-2_darwin-amd64.tar.gz"
-      sha256 "5309a4910de397db17d27362635b0800275934f932052f2c428c6f33ecb03645"
+      url "https://releases.reactor.inc/reactor-cli/20260428-2/reactor-cli_20260428-2_darwin-amd64.tar.gz"
+      sha256 "787f0bac680b490cc140f021bd5b5f35ed8577dc1a85b8898d0edef133a4c1b5"
     end
   end
 
