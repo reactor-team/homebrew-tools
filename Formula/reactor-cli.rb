@@ -13,22 +13,22 @@ class ReactorCli < Formula
   on_macos do
     on_arm do
       url "https://releases.reactor.inc/reactor-cli/v1.20260526.12/reactor-cli_v1.20260526.12_darwin-arm64.tar.gz"
-      sha256 "0bbe25c98685b240c3de8dc5b516be9980408d0fcd80b8487c1ac037879ccc45"
+      sha256 "d6afb2f27ecf267234cc6baf713746ca6d21cf5ba44df13d98551ba7d427b3fa"
     end
     on_intel do
       url "https://releases.reactor.inc/reactor-cli/v1.20260526.12/reactor-cli_v1.20260526.12_darwin-amd64.tar.gz"
-      sha256 "db01dc91b874f665837d3c7e9d93892d6ac022def1b2a602c2b9c13007809483"
+      sha256 "4934297556cc84dac2ee060d6bd72701c34873cd648d962dc7c90f1033c1e68f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://releases.reactor.inc/reactor-cli/v1.20260526.12/reactor-cli_v1.20260526.12_linux-arm64.tar.gz"
-      sha256 "81583d3f43edea2288791167642426f6abaeb19212b006af5d072a54c39fcc7d"
+      sha256 "2f7c2781a53ad784c3c120b4a5e97acd94a2f7d8492b84afc9978cf3ddb2e10d"
     end
     on_intel do
       url "https://releases.reactor.inc/reactor-cli/v1.20260526.12/reactor-cli_v1.20260526.12_linux-amd64.tar.gz"
-      sha256 "50df02cf243b8d8cd3a0b871895f2d991eeb03a16caa5dfd9e920a75a9ffc27a"
+      sha256 "a87ba535f419488b06fd5764a77e16b14f1a68a04984556710c20b9976ddd1ec"
     end
   end
 
