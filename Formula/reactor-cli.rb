@@ -7,28 +7,28 @@
 class ReactorCli < Formula
   desc "Reactor partner CLI for uploading images and model weights"
   homepage "https://github.com/reactor-team/reactor-cli"
-  version "v1.20260611.15765"
+  version "v1.20260611.15768"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15765/reactor-cli_v1.20260611.15765_darwin-arm64.tar.gz"
-      sha256 "4f56a2562277a5c8f254db82ea8700f3a841aec621c33b3117a1b9e322cef0ed"
+      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15768/reactor-cli_v1.20260611.15768_darwin-arm64.tar.gz"
+      sha256 "0d440e8abbc2ad77f798394d73a04752a0cb5ac2ef0d4bf1d847233104af61a9"
     end
     on_intel do
-      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15765/reactor-cli_v1.20260611.15765_darwin-amd64.tar.gz"
-      sha256 "f72234146abab807e6d1d055a04813cfe2f6d67492d0ff3e1f7bba41319741c8"
+      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15768/reactor-cli_v1.20260611.15768_darwin-amd64.tar.gz"
+      sha256 "8f7d45c787ac70af58129e4f5bd4e5845882e7a4e909d2e621e72bdbbaf447e2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15765/reactor-cli_v1.20260611.15765_linux-arm64.tar.gz"
-      sha256 "487b05336f8765a1d5e8724f6e66d3a14e20744dbca80df46073a26f92c92799"
+      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15768/reactor-cli_v1.20260611.15768_linux-arm64.tar.gz"
+      sha256 "04f861dd4dbfe2f8ecafc65eda599bb143582b63f20fb36e35c55cad3835a2f6"
     end
     on_intel do
-      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15765/reactor-cli_v1.20260611.15765_linux-amd64.tar.gz"
-      sha256 "1c254d3573adcaa6bf4d2243d04d45e78a85e8cb90bf7246c6067e6ae56635d9"
+      url "https://releases.reactor.inc/reactor-cli/v1.20260611.15768/reactor-cli_v1.20260611.15768_linux-amd64.tar.gz"
+      sha256 "859e98133f807ba4731eebac18480bb00a3fb3664735538273a2638b92681829"
     end
   end
 
