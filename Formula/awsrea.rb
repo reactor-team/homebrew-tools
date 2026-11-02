@@ -7,28 +7,28 @@
 class Awsrea < Formula
   desc "AWS IAM Identity Center sign-in and profile switcher"
   homepage "https://github.com/reactor-team/homebrew-tools"
-  version "v1.20261021.62"
+  version "v1.20261102.114"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://releases.reactor.inc/awsrea/v1.20261021.62/awsrea_v1.20261021.62_darwin-arm64.tar.gz"
-      sha256 "d6f4e3032a01ea5afba83a12a790b7126c4f67b4c5b82a58da993df52a5a9957"
+      url "https://releases.reactor.inc/awsrea/v1.20261102.114/awsrea_v1.20261102.114_darwin-arm64.tar.gz"
+      sha256 "bad0329be73994c59150db95533929fc9744451e8c03323fcb82d7f48ec39672"
     end
     on_intel do
-      url "https://releases.reactor.inc/awsrea/v1.20261021.62/awsrea_v1.20261021.62_darwin-amd64.tar.gz"
-      sha256 "40d4a83e7587ead250735f306cbdc16320ca27f76e444287db849ca451714ce0"
+      url "https://releases.reactor.inc/awsrea/v1.20261102.114/awsrea_v1.20261102.114_darwin-amd64.tar.gz"
+      sha256 "d1032587f3cc992327832dfa642f9793f2e263322117fec601211099bee71a90"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.reactor.inc/awsrea/v1.20261021.62/awsrea_v1.20261021.62_linux-arm64.tar.gz"
-      sha256 "778d76bdcbec55b4df25edcd7ecccc2a554a4e4d10df98ea9c9afb9dcebc0bb1"
+      url "https://releases.reactor.inc/awsrea/v1.20261102.114/awsrea_v1.20261102.114_linux-arm64.tar.gz"
+      sha256 "d4f80fec1267887296eb6350ba94cd0578d2efe8bd18aa41e695d27fce70b9d1"
     end
     on_intel do
-      url "https://releases.reactor.inc/awsrea/v1.20261021.62/awsrea_v1.20261021.62_linux-amd64.tar.gz"
-      sha256 "66b1949a9781e0387c136ecaf56ee475762be047c7ef6fb1a2417f5e7066f310"
+      url "https://releases.reactor.inc/awsrea/v1.20261102.114/awsrea_v1.20261102.114_linux-amd64.tar.gz"
+      sha256 "ebb85d9e5723b0a0ec0046fdac107060fc7d9ef707f43e660f68947d0e60a604"
     end
   end
 
